@@ -1,0 +1,15 @@
+.countdown-timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  
+}
+
+.measurements {
+  flex: 0.1;
+}
+
+.divider {
+  float: right;
+}

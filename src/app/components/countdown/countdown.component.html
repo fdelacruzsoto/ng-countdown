@@ -1,3 +1,10 @@
-<p>
-  countdown works!
-</p>
+<div class="countdown-timer">
+  <div *ngFor="let time of display; let i = index" class="measurements {{time}}">
+    <p class="measurements-number"> {{displayNumbers[i]}} </p>
+    <span *ngIf="display[i+1]" class="divider"> {{divider}} </span>
+    <p class="measurements-text">
+      {{time}}
+    </p>
+  </div>
+</div>
+<ng-content></ng-content>
