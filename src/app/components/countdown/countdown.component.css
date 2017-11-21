@@ -1,15 +1,21 @@
 .countdown-timer {
+  background-color: #3c434c;
+  font-size:20px;
+  color:white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  
+  font-family: Arial;
 }
 
 .measurements {
   flex: 0.1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .divider {
-  float: right;
+  float: center;
 }
